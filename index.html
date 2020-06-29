@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;/salt&gt; :: ToDo</title>
+    <link rel="stylesheet" type="text/css" href="./style/todo.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./js/store.js"></script>
+    <script defer src="./js/state.js"></script>
+    <script defer src="./js/todo.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+    <div class="header">
+      <h1 class="header__title">My To-Do List</h1>
+      <h2 class="header__subtitle"></h2>
+    </div>
+    <div id="app" class="app">
+      <section class="form">
+      <form>
+        <input
+          autocomplete="off"
+          type="text"
+          name="item"
+          class="form__item"
+          placeholder="Title"
+          maxlength="25"
+        />
+        <input
+          autocomplete="off"
+          type="text"
+          name="item2"
+          class="form__item2"
+          placeholder="Description"
+          maxlength="32"
+        />
+        <button type="submit" class="form__button">Add new to-do</button>
+      </section>
+      </form>
+      <section class="cards">
+      <ul></ul>
+      </section>
+    </div>
+  </div>
+  </body>
+</html>
